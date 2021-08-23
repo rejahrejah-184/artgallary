@@ -1,0 +1,28 @@
+Status codes
+200 : ok 
+201 : invalid email
+202 : user exists 
+203 : invalid parameters
+204 : redirect to login
+403 : forbidden
+500: internal server error
+
+
+
+
+order:status values 
+0: payment verified.
+100: order shipped 
+200: order recieved at distribtion centre 
+300: order delivered to customer
+400 : req for return 
+500 : req for refund 
+600 : return item accepted by distribution agent 
+700 : return item rejected by distribution agent 
+
+ 
+ 
+ 
+ Todo Endpoints 
+ /modifycoupon
+ /deletecoupon
